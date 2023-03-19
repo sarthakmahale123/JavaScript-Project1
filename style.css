@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid white;
+    height: 320px;
+    width: 300px;
+    margin-top: 80px;
+}
+.buttons {
+    padding: 10px;
+    height: 10px;
+    margin:20px 10px;
+    font-family: sans-serif;
+}
+.number:hover {
+    cursor: pointer;
+}
+.number{
+    padding:10px 15px;
+    font-weight: bold;
+}
+.zero {
+    margin-left: 7px;
+}
+.op {
+    margin-left: 20px;
+}
+.enter {
+    padding: 5px;
+    margin-top: 8px;
+}
+.delete {
+    padding:10px;
+    /* height: 10px; */
+    margin-left: 20px;
+    width: 40px;
+    margin-right: 20px;
+}
+.sep {
+    margin-right: 40px;
+}
+.delete:hover {
+    cursor: pointer;
+}
